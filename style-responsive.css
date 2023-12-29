@@ -1,0 +1,140 @@
+/* ---- This is for responsive css code----*/
+
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+}
+.btn a{
+    display: block;
+    margin: 20px auto;
+
+}
+}
+@media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+    .feature {
+    
+        flex-basis: 100%;}
+        .feature-img {
+            flex-basis: 100%;
+            width: 100%;
+            }
+
+}
+@media screen and (max-width: 770px){
+
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-des p{
+        font-size: 12px;
+    }
+    hr {
+        background: #fff;
+     margin: 5px auto;
+    }
+    .single-service:hover .service-des{
+        bottom: 25%;
+    
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .hidden-content,
+    .hidden-content2,
+    .hidden-content3,
+    .hidden-content4 {
+        width: 90%; 
+        max-width: 90%; 
+        padding: 10px; 
+        right: -90%; 
+    }
+
+    .hidden-content h3,
+    .hidden-content2 h3,
+    .hidden-content3 h3,
+    .hidden-content4 h3 {
+        font-size: 22px; 
+        margin-top: 15px; 
+    }
+
+    .hidden-content p,
+    .hidden-content2 p,
+    .hidden-content3 p,
+    .hidden-content4 p {
+        font-size: 14px; 
+        margin-bottom: 10px;
+    }
+
+    .carousel-controls {
+        width: 100%;
+    }
+
+
+    .hidden-content .image-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+     
+        grid-gap: 5px;
+        margin-top: 10px; 
+    }
+
+  
+}
+
+@media screen and (max-width: 770px){
+    .testi-col{
+        flex-basis: 100%;
+
+
+    }
+ .hidden-content,
+    .hidden-content2,
+    .hidden-content3,
+    .hidden-content4 {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .hidden-content4 {
+        width: 70%; 
+        right: -70%;
+    }
+
+    .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 10px;
+    }
+
+    .box img {
+        height: 120px; 
+    }
+
+    .box h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hidden-content4 {
+        width: 100%; 
+        right: -100%;
+    }
+
+    .box img {
+        height: 100px;
+    }
+
+    .box h3 {
+        font-size: 14px; 
+    }
+}
